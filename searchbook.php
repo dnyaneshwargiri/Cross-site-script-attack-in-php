@@ -28,7 +28,6 @@
      }
 }
 ?>
-
 <html>
  <!--
 Author:Dnyaneshwar Giri
@@ -44,7 +43,6 @@ Date:26-03-2019
 			<div class="hidden-xs hidden-sm col-lg-2 col-xl-2" ></div>
 			<div class="col-sm-12 col-xs-12 col-lg-8 col-xl-8" >
 			<?php echo('<p style="color:82B1FF;font-size:24px;"><br>Your Result For- </p>');echo $searchresultfor;?>
-
 			<table class="table table-hover" style="font-size:16px;">
 						  <thead>
 							<tr>
@@ -57,15 +55,10 @@ Date:26-03-2019
 							  <!--<th scope="col">Add to cart</th>-->
 							</tr>
 						  </thead>
-
 						  <tbody>
-							<tr>
-
-							   <?php
-								  foreach($bookrecord as $b)
-								{
-									echo("<td>".$b."</td>");
-								}
+							<tr> <?php
+								 foreach($bookrecord as $b)
+								{echo("<td>".$b."</td>");}
 								?>
 							 </tr>
 						  </tbody>
@@ -79,7 +72,5 @@ Date:26-03-2019
 			<div class="hidden-xs hidden-sm col-lg-2 col-xl-2" ></div>
 		</div>
    </div>
-	<script type='text/javascript' src='js/jquery-3.3.1.js'></script>
-	<script type='text/javascript' src='js/bootstrap.js'></script>
    </body>
 </html>
