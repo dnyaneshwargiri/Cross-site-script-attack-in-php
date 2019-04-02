@@ -1,11 +1,13 @@
 <?php
 ?>
 
-
 <html>
+ <!--
+Author:Dnyaneshwar Giri
+Date:26-03-2019
+ -->
    <head>
       <title>Book Search</title>
-      <!--<link rel="stylesheet" type="text/css" href="css/font-awesome.css"/>-->
       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 	  <link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
       <style type = "text/css">
@@ -47,9 +49,8 @@
 						</form>
 				</div>
 				<div style="" class="col-md-3 col-lg-3"></div>
-
 			</div>
-		</div>
+	   </div>
     <script type='text/javascript' src='js/jquery-3.3.1.js'></script>
 		<script type='text/javascript' src='js/bootstrap.js'></script>
 		<script type='text/javascript'>
