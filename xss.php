@@ -51,9 +51,5 @@ Date:26-03-2019
 				<div style="" class="col-md-3 col-lg-3"></div>
 			</div>
 	   </div>
-    <script type='text/javascript' src='js/jquery-3.3.1.js'></script>
-		<script type='text/javascript' src='js/bootstrap.js'></script>
-		<script type='text/javascript'>
-	</script>
    </body>
 </html>
